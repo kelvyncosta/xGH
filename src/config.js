@@ -1,6 +1,5 @@
 export default {
-  // url : "http://localhost:50947",
-  url : "http://arcos.zema.com/ADM.TDI.ZemaApi",
+  url : "http://localhost:50947",
   user : 'zemadev',
   pass: 'zemadev2018'
 }
