@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: url(../img/background.jpg) center center;
+  background-size: cover;
+  position: relative;
+}
+
+main {
+  flex: 1 auto;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, rgba(131, 96, 195, 0.5), rgba(45, 188, 143, 0.5));
+}
