@@ -1,0 +1,20 @@
+{
+  "users" : [
+    {
+      "nome" : "Kelvyn Costa",
+      "foto" : "URL da Foto",
+      "cokes" : {
+        "pagas" : 8,
+        "npagas" : 2
+      }
+    },
+    {
+      "nome" : "Ricardo Fulgêncio",
+      "foto" : "URL da Foto",
+      "cokes" : {
+        "pagas" : 4,
+        "npagas" : 8
+      }
+    }
+  ]
+}

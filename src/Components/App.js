@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Header, Footer } from './Layout';
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
