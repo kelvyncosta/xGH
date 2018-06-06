@@ -9,9 +9,13 @@ export default class Header extends Component {
           <img alt="Zema" src={goHorse} />
         </div>
 
-        <div className="header__menu">
-
+        <div className="header__name">
+          <h1>eXtreme Go Horse</h1>
         </div>
+
+        <ul className="header__menu">
+          <li>Ranking</li>
+        </ul>
       </header>
     );
   }
