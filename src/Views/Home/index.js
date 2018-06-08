@@ -3,10 +3,8 @@ import { database } from '../../Firebase/Firebase';
 import _ from 'lodash';
 
 import coca from '../../Content/img/coca.png';
-import { SSL_OP_CISCO_ANYCONNECT } from "constants";
 
 export default class Home extends Component {
-
 
   tmpUser = [];
 

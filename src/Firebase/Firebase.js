@@ -13,8 +13,10 @@ if (!firebase.apps.length)
   firebase.initializeApp(config);
 
 const database = firebase.database();
+const auth = firebase.auth();
+const googleProvider = new firebase.auth.GithubAuthProvider();
 
-export { database };
+export { database, auth, googleProvider };
 
 // export const getUsers = () => {
 //   let ref = database.ref("/users");
