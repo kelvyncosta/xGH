@@ -14,7 +14,7 @@ body {
   font-weight: 400;
   width: 100%;
   min-height: 100vh;
-  background: url(../img/background.jpg) center center;
+  /* background: url(../img/background.jpg) center center; */
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -29,7 +29,7 @@ main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(45deg, rgba(54, 0, 51, 0.75), rgba(11, 135, 147, 0.75));
+  background: linear-gradient(to right, rgba(18,194,233,0.45), rgba(196,113,237,0.45), rgba(246,79,89,0.45));
 }
 
 .header {
@@ -60,6 +60,12 @@ main {
 }
 
 .main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.home {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +82,6 @@ main {
 
 .ranking {
   width: 80%;
-  background-color: rgba(255,255,255,0.25);
   margin: 20px 0;
 }
 
@@ -116,6 +121,10 @@ main {
 .ranking__position__coca img {
   height: 70px;
   margin: 0 5px;
+}
+
+.ranking__position__coca img.unpaid {
+  filter: grayscale(1);
 }
 
 .fotoContainer {

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Header, Footer } from './Layout';
+import { ToastContainer, Flip } from 'react-toastify';
+
+import '../Content/css/custom.css';
 
 class App extends Component {
 
@@ -13,6 +16,8 @@ class App extends Component {
         </main>
 
         <Footer />
+
+        <ToastContainer autoClose={ 4000 } hideProgressBar={ true } position="top-center" transition={ Flip } />
       </div>
     );
   }
