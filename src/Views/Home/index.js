@@ -60,21 +60,21 @@ export default class Home extends Component {
                     {
                       _.times(boxes, (index) => {
                         return (
-                          <img src={ box } title="coke" key={ index } />
+                          <img src={ box } title="coke" key={ index } alt="coke" />
                         )
                       })
                     }
                     {
                       _.times(cokes, (index) => {
                         return (
-                          <img src={ coca } title="coke" key={ index }/>
+                          <img src={ coca } title="coke" key={ index } alt="coke" />
                         )
                       })
                     }
                     {
                       _.times(user.cokes.npagas, (index) => {
                         return (
-                          <img src={ coca } title="coke" className="unpaid" key={ index }/>
+                          <img src={ coca } title="coke" className="unpaid" key={ index } alt="coke" />
                         )
                       })
                     }

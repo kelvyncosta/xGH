@@ -6,10 +6,6 @@ import './index.css';
 
 export default class Login extends Component {
 
-  constructor() {
-    super();
-  }
-
   doLogin = async e => {
     e.preventDefault();
 
@@ -18,8 +14,7 @@ export default class Login extends Component {
 
     await auth.signInWithEmailAndPassword(email, pass)
     .catch(err => {
-      const errorCode = err.code;
-      const errorMessage = err.message;
+      console.log(err);
     });
 
     auth.onAuthStateChanged(user => {

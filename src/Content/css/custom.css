@@ -14,7 +14,7 @@ body {
   font-weight: 400;
   width: 100%;
   min-height: 100vh;
-  /* background: url(../img/background.jpg) center center; */
+  background: url(../img/background.jpg) center center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -80,6 +80,10 @@ main {
   color: #FFF;
 }
 
+.footer img {
+  width: 70px;
+}
+
 .ranking {
   width: 80%;
   margin: 20px 0;
@@ -101,6 +105,23 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.ranking__position:nth-child(1) .ranking__position__rank {
+  color: gold;
+  font-size: 2rem;
+}
+
+.ranking__position:nth-child(2) .ranking__position__rank {
+  color: silver;
+  font-size: 1.85rem;
+}
+
+.ranking__position:nth-child(3) .ranking__position__rank {
+  color: #CD7F32;
+  font-size: 1.65rem;
 }
 
 .ranking__position__foto {
